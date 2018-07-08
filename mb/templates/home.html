@@ -1,0 +1,9 @@
+<!-- vim: set ft=htmldjango: -->
+
+<h1>Message Board Homepage</h1>
+
+<ul>
+  {% for post in object_list %}
+    <li>{{ post }}</li>
+  {% endfor %}
+</ul>
