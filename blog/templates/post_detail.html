@@ -1,0 +1,11 @@
+<!-- vim: set ft=htmldjango: -->
+
+{% extends 'base.html' %}
+
+{% block title %}{{post.title}}{% endblock %}
+
+{% block content %}
+  <div class="container-fluid">
+    <h2>{{post.title}}</h2>
+    <p>{{post.body}}</h2>
+{% endblock %}
